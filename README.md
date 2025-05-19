@@ -9,7 +9,7 @@ This repository contains reusable `shell.nix` files to quickly set up isolated d
 
 ## 🚀 Getting Started
 
-### 1. Install Nix
+### 1. Install Nix ❄️
 
 Follow the instructions at [nixos.org/download.html](https://nixos.org/download.html)
 
@@ -30,8 +30,7 @@ nix-shell
 cd rust
 nix-shell
 ```
-You’ll see a message like:
-    🦀 Rust environment activated.
+You’ll see a message like: 🦀 Rust environment activated.
 
 
 🐍 Python
@@ -39,16 +38,15 @@ You’ll see a message like:
 cd python
 nix-shell
 ```
-You’ll see a message like:
-    🐍 Python environment activated.
+You’ll see a message like: 🐍 Python environment activated.
 
 
 ✨ Why Use This?
 
-    Language-specific tools pre-installed
+- Language-specific tools pre-installed
 
-    Reproducible, isolated environments
+- Reproducible, isolated environments
 
-    No need for global installs
+- No need for global installs
 
-    Great for learning, prototyping, and team sharing
+- Great for learning, prototyping, and team sharing
