@@ -1,4 +1,4 @@
-# 💻 Dev Environments with Nix
+# 💻 Dev Environments with Nix ❄️
 
 This repository contains reusable `shell.nix` files to quickly set up isolated development environments for various programming languages and toolchains using [Nix](https://nixos.org/).
 
@@ -25,7 +25,7 @@ nix-shell
 
 ### 3. Enter an Environment
 
-🦀 Rust
+### 🦀 Rust
 ```bash
 cd rust
 nix-shell
@@ -33,12 +33,16 @@ nix-shell
 You’ll see a message like: 🦀 Rust environment activated.
 
 
-🐍 Python
+
+
+### 🐍 Python
 ```bash
 cd python
 nix-shell
 ```
 You’ll see a message like: 🐍 Python environment activated.
+
+
 
 
 ### ✨ Why Use This?
