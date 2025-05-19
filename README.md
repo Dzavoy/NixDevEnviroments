@@ -18,7 +18,7 @@ Follow the instructions at [nixos.org/download.html](https://nixos.org/download.
 Clone the repo and enter any environment:
 
 ```bash
-git clone https://github.com/Dzavoy/dev-environments.git
+git clone https://github.com/Dzavoy/NixDevEnviroments.git
 cd dev-environments/rust
 nix-shell
 ```
