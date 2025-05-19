@@ -41,7 +41,7 @@ nix-shell
 You’ll see a message like: 🐍 Python environment activated.
 
 
-✨ Why Use This?
+### ✨ Why Use This?
 
 - Language-specific tools pre-installed
 
