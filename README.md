@@ -24,28 +24,6 @@ cd dev-environments/rust
 nix-shell
 ```
 
-### 3. Enter an Environment
-
-### 🦀 Rust
-```bash
-cd rust
-nix-shell
-```
-You’ll see a message like: 🦀 Rust environment activated.
-
-
-
-
-### 🐍 Python
-```bash
-cd python
-nix-shell
-```
-You’ll see a message like: 🐍 Python environment activated.
-
-
-
-
 ### ✨ Why Use This?
 
 - Language-specific tools pre-installed
