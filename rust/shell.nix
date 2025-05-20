@@ -1,19 +1,20 @@
-{ pkgs ? import <nixpkgs> {} }:
+{ pkgs ? import <nixpkgs> { overlays = [ (import (fetchTarball "https://github.com/oxalica/rust-overlay/archive/master.tar.gz")) ]; } }:
 
 pkgs.mkShell {
+  
+  packages = [
+    (pkgs.rust-bin.stable."1.82.0".default.override {
+      extensions = [ "rust-src" ];
+    })
 
-    packages = [
-        pkgs.git
-        pkgs.rustc
-        pkgs.cargo
-        pkgs.rustfmt
-        pkgs.clippy
-        pkgs.rust-analyzer
-        pkgs.pkg-config
-        pkgs.openssl
-    ];
+    pkgs.git
+    pkgs.pkg-config
+    pkgs.openssl
+  ];
 
-    shellHook = ''
-        echo "🦀 Rust environment activated."
-    '';
+  shellHook = ''
+    export TMPDIR=/tmp
+    mkdir -p /tmp
+    echo "🦀 Rust environment activated."
+  '';
 }
