@@ -6,7 +6,7 @@ This repository contains reusable `shell.nix` files to quickly set up isolated d
 
 - 🦀 [`rust/`](./rust) — Rust development environment with `cargo`, `clippy`, `rust-analyzer`, and `openssl` support
 - 🐍 [`python/`](./python) — Python 3.13 environment with `uv`, `mypy`, compiler tools, and `git`
-- ❗ More languages will be added
+- λ [`haskell/`](./haskell) — Haskell environment with `ghc`, `cabal`, and `haskell-language-server`
 
 ## 🚀 Getting Started
 
